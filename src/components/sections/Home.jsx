@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import "../../index.css";
+import Logo from "../../assets/avatarmain.png";
 
 export const Home = () => {
   return (
@@ -6,16 +8,24 @@ export const Home = () => {
       id="home"
       className="min-h-screen flex items-center justify-center relative"
     >
+      <div>
+        <img src={Logo} alt="Logo" className="Logo" />
+      </div>
       <RevealOnScroll>
         <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
-            Greetings, This is CHI Portfolio.
+          <h1 className="text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent leading-right">
+            I'm Chinda Amadi, a Software Engineer.
           </h1>
+
           
           <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a full-stack developer who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I'm a dedicated full-stack developer with a passion for backend development.
+            <br>
+            </br>
+            I enjoy using my skills to build the logic and functionality behind web applications.
+            <br>
+            </br>
+            I'm passionate about building scalable web applications and creating innovative solutions.
           </p>
           <div className="flex justify-center space-x-4">
             <a

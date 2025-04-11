@@ -2,13 +2,13 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
     const frontendSkills = [
-        "React",
-        "TypeScript",
+        "HTML & CSS",
         "TailwindCSS",
-        "Flutter",
+        "Javascript",
+        "ReactJS",
       ];
     
-      const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "Django"];
+      const backendSkills = ["Python", "Django", "MySQL", "PostgreSQL", "MongoDB",];
     
       return (
         <section
@@ -24,8 +24,23 @@ export const About = () => {
 
                 <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
                     <p className="text-gray-300 mb-6">
-                        Passionate developer with expertise in building scalable web
-                        applications and creating innovative solutions.
+                        Working as a freelancer has enabled me to become a problem-solver, a people-oriented person, an excellent communicator, where I build solutions based on the nature of the problem and my target users.
+                        <br>
+                        </br>
+                        <br>
+                        </br>
+                        I've built and integrated secure, reliable web applications using the Django web framework and REST & RESTful API structures.
+                        <br>
+                        </br>
+                        I've also designed and implemented a CI/CD system, optimized code for performance and reliability, and created microservices databases for scalability.
+                        <br>
+                        </br>
+                        <br>
+                        </br>
+                        I'm a lifelong learner, hard worker and self-motivated team player with strong analytical and strategic thinking skills, I always want to maintain a high level of professionalism while providing consistent and quality service.
+                        <br>
+                        </br>
+                        I'm a fast learner who welcomes the challenge to learn and develop new skills.
                     </p>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -74,6 +89,12 @@ export const About = () => {
                         <br>
                         </br>
                         <li>
+                            <strong>SkillUP Full Stack Development for Beginners</strong> - Simplilearn Academy
+                            (2022)
+                        </li>
+                        <br>
+                        </br>
+                        <li>
                             <strong> Certification in Software Engineering </strong> - ALX Africa
                             (2023)
                         </li>
@@ -89,7 +110,7 @@ export const About = () => {
                         <div>
                             <h4 className="font-semibold">
                                 {" "}
-                                Python Backend Developer at Microcee Company (3/2024 - 9/2024){" "}
+                                Python Backend Developer at Microcee Company (7/2024 - 11/2024){" "}
                             </h4>
                             <p>
                                 Developed and integrated a secure, robust, and dependable web application using the Django web framework and REST API structures.
@@ -98,11 +119,10 @@ export const About = () => {
                         <div>
                             <h4 className="font-semibold">
                                 {" "}
-                                Intern at ChiExclusive Innovations (3/2022 - 1/2022){" "}
+                                Intern at ChiExclusive Innovations (3/2024 - 6/2024){" "}
                             </h4>
                             <p>
-                                Assisted in building front-end components and integration
-                                REST APIs
+                                Assisted in building a business website with front-end components using HTML & CSS, Javascript and ReactJS.
                             </p>
                         </div>
                     </div>
